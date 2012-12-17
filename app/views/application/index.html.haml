@@ -1,0 +1,11 @@
+#viewport
+  #sidebar
+  #app
+    #sessions
+    #show-session
+
+:javascript
+  $(function() {
+    window.router = new App.Routers.Router();
+    Backbone.history.start();
+  });

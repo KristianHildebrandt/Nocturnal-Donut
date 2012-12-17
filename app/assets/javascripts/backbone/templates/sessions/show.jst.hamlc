@@ -1,0 +1,8 @@
+.panel
+  %article.session-show
+    .inner
+      %h1
+        WhoooHooo
+      %h2.button-outer
+        %button
+          Go Back

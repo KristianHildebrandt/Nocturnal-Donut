@@ -1,0 +1,12 @@
+.panel
+  %header.session-index
+    %button.main-menu.menu-toggle
+    %h1
+      One View
+  %article
+    .inner
+      %ul.list
+        -for n in [1..25]
+          %li{href: "#", "data-href": "#show"}
+            .inner
+              Test#{n}
