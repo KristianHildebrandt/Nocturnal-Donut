@@ -24,7 +24,7 @@ class App.Routers.Router extends Backbone.Router
         duration: @transition_duration
         easing: "ease-out"
         () =>
-          console.log @prev_el.hide()
+          @prev_el.hide()
 
   index: ->
     @view = new App.Views.Sessions.IndexView()
